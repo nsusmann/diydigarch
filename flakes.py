@@ -1,5 +1,6 @@
-#This script was altered in January 2022 for the purposes of teaching an introductory coding lesson to undergraduate archaeology students. This script was originally created by Chloe Holden in 2020. Her work is available here: https://blogs.iu.edu/sciu/2020/01/18/archaeology-and-python/
-#Use this version of the script to load in rep.lit. Begin by pasting this script in main.py. Search for pip in the install packages tab and install it.
+# This script was altered in January 2022 for the purposes of teaching an introductory coding lesson to undergraduate archaeology students. 
+# This script was originally created by Chloe Holden in 2020. Her work is available here: https://blogs.iu.edu/sciu/2020/01/18/archaeology-and-python/
+# Use this version of the script to load in rep.lit. Begin by pasting this script in main.py. Search for pip in the install packages tab and install it.
 
 import pandas as pd
 import matplotlib.pyplot as plt
