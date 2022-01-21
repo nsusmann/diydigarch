@@ -1,9 +1,14 @@
+#This script was altered in January 2022 for the purposes of teaching an introductory coding lesson to undergraduate archaeology students. This script was originally created by Chloe Holden in 2020. Her work is available here: https://blogs.iu.edu/sciu/2020/01/18/archaeology-and-python/
+#Use this version of the script to load in rep.lit. Begin by pasting this script in main.py. Search for pip in the install packages tab and install it.
+
 import pandas as pd
 import matplotlib.pyplot as plt
+import openpyxl as pip
+
 # Import excel files with the X and Y coordinates for flake distributions
 # x and y coordinates were created in QGIS and exported into an excel file
-r_basalt = pd.ExcelFile("D:\Documents\Archaeology\Teaching\HC\DIYDigArch\Flakes\Basalt-Right.xlsx")  # x and y coordinates for flakes knapped by a right hander
-l_basalt = pd.ExcelFile("D:\Documents\Archaeology\Teaching\HC\DIYDigArch\Flakes\Basalt-Left.xlsx")  # x and y coordinates for flakes knapped by a left hander
+r_basalt = pd.ExcelFile("Basalt-Right.xlsx")  # x and y coordinates for flakes knapped by a right hander
+l_basalt = pd.ExcelFile("Basalt-Left.xlsx")  # x and y coordinates for flakes knapped by a left hander
 #Creating dataframes for Sheet 1 in left and right hander flake coordinates
 df_right = r_basalt.parse("Sheet1")
 df_left = l_basalt.parse ("Sheet1")
